@@ -1,0 +1,23 @@
+:root{
+    --primary-color: black;
+    --primary-font-color: black;
+    --second-font-color: white;
+}
+
+body{
+    background-color: var(--primary-color);
+}
+
+img{
+    width: 50%;
+    height: 700px;
+}
+
+.caption-text > p{
+    color: var(--primary-font-color);
+    font-style: oblique;
+
+}
+.caption-text > h4{
+    color: var(--second-font-color);    
+}
